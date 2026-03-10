@@ -1,7 +1,11 @@
+"use client"
+
 const oscarsData = require('../../oscars.json')
 import { Category, Option } from "@/types";
+import { shareTextToWhatsApp } from "share-text-to-whatsapp";
 
 export default function Home() {
+  let predictions = 'Nothing'
   return (
     <main>
       <h1>What are your predicitons for the Oscars</h1>
@@ -25,6 +29,10 @@ export default function Home() {
           </div>
         )
       })}
+
+      <button onClick={() => {shareTextToWhatsApp(predictions)}}>
+        Share to Whatsapp
+      </button>
     </main>
   );
 }
