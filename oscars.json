@@ -1,0 +1,623 @@
+{
+    "categories": [
+        {
+            "name": "Actor in a Leading Role",
+            "options": [
+                {
+                    "option": "Timothée Chalamet",
+                    "details": "Marty Supreme"
+                },
+                {
+                    "option": "Leonardo DiCaprio",
+                    "details": "One Battle after Another"
+                },
+                {
+                    "option": "Ethan Hawke",
+                    "details": "Blue Moon"
+                },
+                {
+                    "option": "Michael B. Jordan",
+                    "details": "Sinners"
+                },
+                {
+                    "option": "Wagner Moura",
+                    "details": "The Secret Agent"
+                }
+            ]
+        },
+        {
+            "name": "Actor in a Supporting Role",
+            "options": [
+                {
+                    "option": "Benicio Del Toro",
+                    "details": "One Battle after Another"
+                },
+                {
+                    "option": "Jacob Elordi",
+                    "details": "Frankenstein"
+                },
+                {
+                    "option": "Delroy Lindo",
+                    "details": "Sinners"
+                },
+                {
+                    "option": "Sean Penn",
+                    "details": "One Battle after Another"
+                },
+                {
+                    "option": "Stellan Skarsgård",
+                    "details": "Sentimental Value"
+                }
+            ]
+        },
+        {
+            "name": "Actress in a Leading Role",
+            "options": [
+                {
+                    "option": "Jessie Buckley",
+                    "details": "Hamnet"
+                },
+                {
+                    "option": "Rose Byrne",
+                    "details": "If I Had Legs I'd Kick You"
+                },
+                {
+                    "option": "Kate Hudson",
+                    "details": "Song Sung Blue"
+                },
+                {
+                    "option": "Renate Reinsve",
+                    "details": "Sentimental Value"
+                },
+                {
+                    "option": "Emma Stone",
+                    "details": "Bugonia"
+                }
+            ]
+        },
+        {
+            "name": "Actress in a Supporting Role",
+            "options": [
+                {
+                    "option": "Elle Fanning",
+                    "details": "Sentimental Value"
+                },
+                {
+                    "option": "Inga Ibsdotter Lilleaas",
+                    "details": "Sentimental Value"
+                },
+                {
+                    "option": "Amy Madigan",
+                    "details": "Weapons"
+                },
+                {
+                    "option": "Wunmi Mosaku",
+                    "details": "Sinners"
+                },
+                {
+                    "option": "Teyana Taylor",
+                    "details": "One Battle after Another"
+                }
+            ]
+        },
+        {
+            "name": "Animated Feature Film",
+            "options": [
+                {
+                    "option": "Arco",
+                    "details": "Ugo Bienvenu, Félix de Givry, Sophie Mas and Natalie Portman"
+                },
+                {
+                    "option": "Elio",
+                    "details": "Madeline Sharafian, Domee Shi, Adrian Molina and Mary Alice Drumm"
+                },
+                {
+                    "option": "KPop Demon Hunters",
+                    "details": "Maggie Kang, Chris Appelhans and Michelle L.M. Wong"
+                },
+                {
+                    "option": "Little Amélie or the Character of RainMaïlys Vallade, Liane-Cho Han, Nidia Santiago and Henri Magalon"
+                },
+                {
+                    "option": "Zootopia 2",
+                    "details": "Jared Bush, Byron Howard and Yvett Merino"
+                }
+            ]
+        },
+        {
+            "name": "Animated Short Film",
+            "options": [
+                {
+                    "option": "Butterfly",
+                    "details": "Florence Miailhe and Ron Dyens"
+                },
+                {
+                    "option": "Forevergreen",
+                    "details": "Nathan Engelhardt and Jeremy Spears"
+                },
+                {
+                    "option": "The Girl Who Cried Pearls",
+                    "details": "Chris Lavis and Maciek Szczerbowski"
+                },
+                {
+                    "option": "Retirement Plan",
+                    "details": "John Kelly and Andrew Freedman"
+                },
+                {
+                    "option": "The Three Sisters",
+                    "details": "Konstantin Bronzit"
+                }
+            ]
+        },
+        {
+            "name": "Casting",
+            "options": [
+                {
+                    "option": "Hamnet",
+                    "details": "Nina Gold"
+                },
+                {
+                    "option": "Marty Supreme",
+                    "details": "Jennifer Venditti"
+                },
+                {
+                    "option": "One Battle after Another",
+                    "details": "Cassandra Kulukundis"
+                },
+                {
+                    "option": "The Secret Agent",
+                    "details": "Gabriel Domingues"
+                },
+                {
+                    "option": "Sinners",
+                    "details": "Francine Maisler"
+                }
+            ]
+        },
+        {
+            "name": "Cinematography",
+            "options": [
+                {
+                    "option": "Frankenstein",
+                    "details": "Dan Laustsen"
+                },
+                {
+                    "option": "Marty Supreme",
+                    "details": "Darius Khondji"
+                },
+                {
+                    "option": "One Battle after Another",
+                    "details": "Michael Bauman"
+                },
+                {
+                    "option": "Sinners",
+                    "details": "Autumn Durald Arkapaw"
+                },
+                {
+                    "option": "Train Dreams",
+                    "details": "Adolpho Veloso"
+                }
+            ]
+        },
+        {
+            "name": "Costume Design",
+            "options": [
+                {
+                    "option": "Avatar: Fire and Ash",
+                    "details": "Deborah L. Scott"
+                },
+                {
+                    "option": "Frankenstein",
+                    "details": "Kate Hawley"
+                },
+                {
+                    "option": "Hamnet",
+                    "details": "Malgosia Turzanska"
+                },
+                {
+                    "option": "Marty Supreme",
+                    "details": "Miyako Bellizzi"
+                },
+                {
+                    "option": "Sinners",
+                    "details": "Ruth E. Carter"
+                }
+            ]
+        },
+        {
+            "name": "Directing",
+            "options": [
+                {
+                    "option": "Hamnet",
+                    "details": "Chloé Zhao"
+                },
+                {
+                    "option": "Marty Supreme",
+                    "details": "Josh Safdie"
+                },
+                {
+                    "option": "One Battle after Another",
+                    "details": "Paul Thomas Anderson"
+                },
+                {
+                    "option": "Sentimental Value",
+                    "details": "Joachim Trier"
+                },
+                {
+                    "option": "Sinners",
+                    "details": "Ryan Coogler"
+                }
+            ]
+        },
+        {
+            "name": "Documentary Feature Film",
+            "options": [
+                {
+                    "option": "The Alabama Solution",
+                    "details": "Andrew Jarecki and Charlotte Kaufman"
+                },
+                {
+                    "option": "Come See Me in the Good Light",
+                    "details": "Ryan White, Jessica Hargrave, Tig Notaro and Stef Willen"
+                },
+                {
+                    "option": "Cutting through Rocks",
+                    "details": "Sara Khaki and Mohammadreza Eyni"
+                },
+                {
+                    "option": "Mr. Nobody against Putin",
+                    "details": "David Borenstein, Pavel Talankin, Helle Faber and Alžběta Karásková"
+                },
+                {
+                    "option": "The Perfect Neighbor",
+                    "details": "Geeta Gandbhir, Alisa Payne, Nikon Kwantu and Sam Bisbee"
+                }
+            ]
+        },
+        {
+            "name": "Documentary Short Film",
+            "options": [
+                {
+                    "option": "All the Empty Rooms",
+                    "details": "Joshua Seftel and Conall Jones"
+                },
+                {
+                    "option": "Armed Only with a Camera: The Life and Death of Brent Renaud",
+                    "details": "Craig Renaud and Juan Arredondo"
+                },
+                {
+                    "option": "Children No More: \"Were and Are Gone\"",
+                    "details": "Hilla Medalia and Sheila Nevins"
+                },
+                {
+                    "option": "The Devil Is Busy",
+                    "details": "Christalyn Hampton and Geeta Gandbhir"
+                },
+                {
+                    "option": "Perfectly a Strangeness",
+                    "details": "Alison McAlpine"
+                }
+            ]
+        },
+        {
+            "name": "Film Editing",
+            "options": [
+                {
+                    "option": "F1",
+                    "details": "Stephen Mirrione"
+                },
+                {
+                    "option": "Marty Supreme",
+                    "details": "Ronald Bronstein and Josh Safdie"
+                },
+                {
+                    "option": "One Battle after Another",
+                    "details": "Andy Jurgensen"
+                },
+                {
+                    "option": "Sentimental Value",
+                    "details": "Olivier Bugge Coutté"
+                },
+                {
+                    "option": "Sinners",
+                    "details": "Michael P. Shawver"
+                }
+            ]
+        },
+        {
+            "name": "International Feature Film",
+            "options": [
+                {
+                    "option": "Brazil",
+                    "details": "The Secret Agent"
+                },
+                {
+                    "option": "France",
+                    "details": "It Was Just an Accident"
+                },
+                {
+                    "option": "Norway",
+                    "details": "Sentimental Value"
+                },
+                {
+                    "option": "Spain",
+                    "details": "Sirāt"
+                },
+                {
+                    "option": "Tunisia",
+                    "details": "The Voice of Hind Rajab"
+                }
+            ]
+        },
+        {
+            "name": "Live Action Short Film",
+            "options": [
+                {
+                    "option": "Butcher's Stain",
+                    "details": "Meyer Levinson-Blount and Oron Caspi"
+                },
+                {
+                    "option": "A Friend of Dorothy",
+                    "details": "Lee Knight and James Dean"
+                },
+                {
+                    "option": "Jane Austen's Period Drama",
+                    "details": "Julia Aks and Steve Pinder"
+                },
+                {
+                    "option": "The Singers",
+                    "details": "Sam A. Davis and Jack Piatt"
+                },
+                {
+                    "option": "Two People Exchanging Saliva",
+                    "details": "Alexandre Singh and Natalie Musteata"
+                }
+            ]
+        },
+        {
+            "name": "Makeup and Hairstyling",
+            "options": [
+                {
+                    "option": "Frankenstein",
+                    "details": "Mike Hill, Jordan Samuel and Cliona Furey"
+                },
+                {
+                    "option": "Kokuho",
+                    "details": "Kyoko Toyokawa, Naomi Hibino and Tadashi Nishimatsu"
+                },
+                {
+                    "option": "Sinners",
+                    "details": "Ken Diaz, Mike Fontaine and Shunika Terry"
+                },
+                {
+                    "option": "The Smashing Machine",
+                    "details": "Kazu Hiro, Glen Griffin and Bjoern Rehbein"
+                },
+                {
+                    "option": "The Ugly Stepsister",
+                    "details": "Thomas Foldberg and Anne Cathrine Sauerberg"
+                }
+            ]
+        },
+        {
+            "name": "Music (Original Score)",
+            "options": [
+                {
+                    "option": "Bugonia",
+                    "details": "Jerskin Fendrix"
+                },
+                {
+                    "option": "Frankenstein",
+                    "details": "Alexandre Desplat"
+                },
+                {
+                    "option": "Hamnet",
+                    "details": "Max Richter"
+                },
+                {
+                    "option": "One Battle after Another",
+                    "details": "Jonny Greenwood"
+                },
+                {
+                    "option": "Sinners",
+                    "details": "Ludwig Goransson"
+                }
+            ]
+        },
+        {
+            "name": "Music (Original Song)",
+            "options": [
+                {
+                    "option": "Dear Me",
+                    "details": "from Diane Warren: Relentless; Music and Lyric by Diane Warren"
+                },
+                {
+                    "option": "Golden",
+                    "details": "from KPop Demon Hunters; Music and Lyric by EJAE, Mark Sonnenblick, Joong Gyu Kwak, Yu Han Lee, Hee Dong Nam, Jeong Hoon Seo and Teddy Park"
+                },
+                {
+                    "option": "I Lied To You",
+                    "details": "from Sinners; Music and Lyric by Raphael Saadiq and Ludwig Goransson"
+                },
+                {
+                    "option": "Sweet Dreams Of Joy",
+                    "details": "from Viva Verdi!; Music and Lyric by Nicholas Pike"
+                },
+                {
+                    "option": "Train Dreams",
+                    "details": "from Train Dreams; Music by Nick Cave and Bryce Dessner; Lyric by Nick Cave"
+                }
+            ]
+        },
+        {
+            "name": "Best Picture",
+            "options": [
+                {
+                    "option": "Bugonia",
+                    "details": "Ed Guiney & Andrew Lowe, Yorgos Lanthimos, Emma Stone and Lars Knudsen, Producers"
+                },
+                {
+                    "option": "F1",
+                    "details": "Chad Oman, Brad Pitt, Dede Gardner, Jeremy Kleiner, Joseph Kosinski and Jerry Bruckheimer, Producers"
+                },
+                {
+                    "option": "Frankenstein",
+                    "details": "Guillermo del Toro, J. Miles Dale and Scott Stuber, Producers"
+                },
+                {
+                    "option": "Hamnet",
+                    "details": "Liza Marshall, Pippa Harris, Nicolas Gonda, Steven Spielberg and Sam Mendes, Producers"
+                },
+                {
+                    "option": "Marty Supreme",
+                    "details": "Eli Bush, Ronald Bronstein, Josh Safdie, Anthony Katagas and Timothée Chalamet, Producers"
+                },
+                {
+                    "option": "One Battle after Another",
+                    "details": "Adam Somner, Sara Murphy and Paul Thomas Anderson, Producers"
+                },
+                {
+                    "option": "The Secret Agent",
+                    "details": "Emilie Lesclaux, Producer"
+                },
+                {
+                    "option": "Sentimental Value",
+                    "details": "Maria Ekerhovd and Andrea Berentsen Ottmar, Producers"
+                },
+                {
+                    "option": "Sinners",
+                    "details": "Zinzi Coogler, Sev Ohanian and Ryan Coogler, Producers"
+                },
+                {
+                    "option": "Train Dreams",
+                    "details": "Marissa McMahon, Teddy Schwarzman, Will Janowitz, Ashley Schlaifer and Michael Heimler, Producers"
+                }
+            ]
+        },
+        {
+            "name": "Production Design",
+            "options": [
+                {
+                    "option": "Frankenstein",
+                    "details": "Production Design: Tamara Deverell; Set Decoration: Shane Vieau"
+                },
+                {
+                    "option": "Hamnet",
+                    "details": "Production Design: Fiona Crombie; Set Decoration: Alice Felton"
+                },
+                {
+                    "option": "Marty Supreme",
+                    "details": "Production Design: Jack Fisk; Set Decoration: Adam Willis"
+                },
+                {
+                    "option": "One Battle after Another",
+                    "details": "Production Design: Florencia Martin; Set Decoration: Anthony Carlino"
+                },
+                {
+                    "option": "Sinners",
+                    "details": "Production Design: Hannah Beachler; Set Decoration: Monique Champagne"
+                }
+            ]
+        },
+        {
+            "name": "Sound",
+            "options": [
+                {
+                    "option": "F1",
+                    "details": "Gareth John, Al Nelson, Gwendolyn Yates Whittle, Gary A. Rizzo and Juan Peralta"
+                },
+                {
+                    "option": "Frankenstein",
+                    "details": "Greg Chapman, Nathan Robitaille, Nelson Ferreira, Christian Cooke and Brad Zoern"
+                },
+                {
+                    "option": "One Battle after Another",
+                    "details": "José Antonio García, Christopher Scarabosio and Tony Villaflor"
+                },
+                {
+                    "option": "Sinners",
+                    "details": "Chris Welcker, Benjamin A. Burtt, Felipe Pacheco, Brandon Proctor and Steve Boeddeker"
+                },
+                {
+                    "option": "Sirāt",
+                    "details": "Amanda Villavieja, Laia Casanovas and Yasmina Praderas"
+                }
+            ]
+        },
+        {
+            "name": "Visual Effects",
+            "options": [
+                {
+                    "option": "Avatar: Fire and Ash",
+                    "details": "Joe Letteri, Richard Baneham, Eric Saindon and Daniel Barrett"
+                },
+                {
+                    "option": "F1",
+                    "details": "Ryan Tudhope, Nicolas Chevallier, Robert Harrington and Keith Dawson"
+                },
+                {
+                    "option": "Jurassic World Rebirth",
+                    "details": "David Vickery, Stephen Aplin, Charmaine Chan and Neil Corbould"
+                },
+                {
+                    "option": "The Lost Bus",
+                    "details": "Charlie Noble, David Zaretti, Russell Bowen and Brandon K. McLaughlin"
+                },
+                {
+                    "option": "Sinners",
+                    "details": "Michael Ralla, Espen Nordahl, Guido Wolter and Donnie Dean"
+                }
+            ]
+        },
+        {
+            "name": "Writing (Adapted Screenplay)",
+            "options": [
+                {
+                    "option": "Bugonia",
+                    "details": "Screenplay by Will Tracy"
+                },
+                {
+                    "option": "Frankenstein",
+                    "details": "Written for the Screen by Guillermo del Toro"
+                },
+                {
+                    "option": "Hamnet",
+                    "details": "Screenplay by Chloé Zhao & Maggie O'Farrell"
+                },
+                {
+                    "option": "One Battle after Another",
+                    "details": "Written by Paul Thomas Anderson"
+                },
+                {
+                    "option": "Train Dreams",
+                    "details": "Screenplay by Clint Bentley & Greg Kwedar"
+                }
+            ]
+        },
+        {
+            "name": "Writing (Original Screenplay)",
+            "options": [
+                {
+                    "option": "Blue Moon",
+                    "details": "Written by Robert Kaplow"
+                },
+                {
+                    "option": "It Was Just an Accident",
+                    "details": "Written by Jafar Panahi; Script collaborators - Nader Saïvar, Shadmehr Rastin, Mehdi Mahmoudian"
+                },
+                {
+                    "option": "Marty Supreme",
+                    "details": "Written by Ronald Bronstein & Josh Safdie"
+                },
+                {
+                    "option": "Sentimental Value",
+                    "details": "Written by Eskil Vogt, Joachim Trier"
+                },
+                {
+                    "option": "Sinners",
+                    "details": "Written by Ryan Coogler"
+                }
+            ]
+        }
+    ]
+}
