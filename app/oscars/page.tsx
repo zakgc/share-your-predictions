@@ -2,6 +2,7 @@
 
 const oscarsData = require('../../oscars.json')
 import { Category, Option, UserPrediction } from "@/types";
+import styles from './page.module.css'
 import { shareTextToWhatsApp } from "share-text-to-whatsapp";
 
 export default function Home() {
@@ -57,7 +58,7 @@ export default function Home() {
       {oscarsData.categories.map((category: Category, categoryIndex: number) => {
         let categoryKey = `${category.name}-${categoryIndex}`
         return (
-          <div key={categoryKey}>
+          <div className={styles.categoryBox} key={categoryKey}>
             <h1 id={`c${categoryIndex}`}>{category.name}</h1>
             <br/>
             {category.options.map((option: Option, optionIndex: number) => {
@@ -67,6 +68,7 @@ export default function Home() {
                 <div
                   id={optionId}
                   key={optionKey}
+                  className={styles.option}
                   onClick={() => {
                     addPrediction(category.name, option.option)
                     jumpToCategory(`c${categoryIndex + 1}`)
@@ -87,7 +89,10 @@ export default function Home() {
         )
       })}
 
-      <button onClick={() => {sharePredicitions()}}>
+      <button
+        className={styles.shareButton}
+        onClick={() => {sharePredicitions()}}
+      >
         Share to Whatsapp
       </button>
     </main>
