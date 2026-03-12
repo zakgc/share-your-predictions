@@ -46,6 +46,10 @@ export default function Home() {
     shareTextToWhatsApp(text)
   }
 
+  const jumpToCategory = (id: string) => {
+    document.getElementById(id)?.scrollIntoView()
+  }
+
   return (
     <main>
       <h1>What are your predicitons for the Oscars</h1>
@@ -54,7 +58,7 @@ export default function Home() {
         let categoryKey = `${category.name}-${categoryIndex}`
         return (
           <div key={categoryKey}>
-            <h1>{category.name}</h1>
+            <h1 id={`c${categoryIndex}`}>{category.name}</h1>
             <br/>
             {category.options.map((option: Option, optionIndex: number) => {
               let optionKey = `${category.name}-${option.option}-${optionIndex}`
@@ -63,13 +67,21 @@ export default function Home() {
                 <div
                   id={optionId}
                   key={optionKey}
-                  onClick={() => {addPrediction(category.name, option.option)}}
+                  onClick={() => {
+                    addPrediction(category.name, option.option)
+                    jumpToCategory(`c${categoryIndex + 1}`)
+                  }}
                 >
                   <h2>{option.option}</h2>
                   <h3>{option.details}</h3>
                 </div>
               )
             })}
+            <button
+              onClick={() => {
+                jumpToCategory(`c${categoryIndex + 1}`)
+              }}
+            >Skip</button>
             <br/>
           </div>
         )
