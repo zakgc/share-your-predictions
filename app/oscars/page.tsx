@@ -9,8 +9,23 @@ import { shareTextToWhatsApp } from "share-text-to-whatsapp";
 
 const cx = classNames.bind(styles)
 
+type stateObject = {
+  [Key: string]: boolean[]
+}
+
+const intitialOptionsState = () => {
+  let optionsState: stateObject = {}
+
+  oscarsData.categories.forEach((category: Category, categoryIndex: number) => {
+    let categoryKey = `c${categoryIndex}`
+    Object.assign(optionsState, {[categoryKey]: category.options.map(option => false)})
+  });
+
+  return optionsState
+}
+
 export default function Home() {
-  const [optionState, setOptionState] = useState(false)
+  const [optionsState, setOptionsState] = useState(intitialOptionsState)
   let userPredicitons: UserPrediction[] = []
   
   oscarsData.categories.forEach((category: Category) => {
@@ -19,8 +34,15 @@ export default function Home() {
       prediction: ''
     })
   });
+
   const updateOptionState = (categoryIndex: number, optionIndex: number) => {
-    setOptionState(true)
+    let newOptionsState = optionsState
+    let categoryKey = `c${categoryIndex}`
+    newOptionsState[categoryKey] = newOptionsState[categoryKey].map(() => false)
+    newOptionsState[categoryKey][optionIndex] = true
+
+    window.alert(JSON.stringify(newOptionsState))
+    setOptionsState(newOptionsState)
   }
 
   const addPrediction = (categoryName: string, prediction: string) => {
@@ -75,7 +97,7 @@ export default function Home() {
 
               let optionClassName = cx({
                 option: true,
-                selected: optionState
+                selected: optionsState[`c${categoryIndex}`][optionIndex]
               })
               return (
                 <div
