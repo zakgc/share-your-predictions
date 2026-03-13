@@ -29,6 +29,7 @@ const intitialOptionsState = () => {
 export default function Home() {
   const [optionsState, setOptionsState] = useState(intitialOptionsState);
   let userPredicitons: UserPrediction[] = [];
+  let numberOfCategories = oscarsData.categories.length;
 
   oscarsData.categories.forEach((category: Category) => {
     userPredicitons.push({
@@ -82,7 +83,7 @@ export default function Home() {
   };
 
   const jumpToCategory = (id: string) => {
-    document.getElementById(id)?.scrollIntoView();
+    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
@@ -94,7 +95,9 @@ export default function Home() {
           let categoryKey = `${category.name}-${categoryIndex}`;
           return (
             <div className={styles.categoryBox} key={categoryKey}>
-              <h1 id={`c${categoryIndex}`}>{category.name}</h1>
+              <h1 id={`c${categoryIndex}`}>
+                {categoryIndex + 1}/{numberOfCategories} - {category.name}
+              </h1>
               <br />
               {category.options.map((option: Option, optionIndex: number) => {
                 let optionKey = `${category.name}-${option.option}-${optionIndex}`;
@@ -115,12 +118,13 @@ export default function Home() {
                       jumpToCategory(`c${categoryIndex + 1}`);
                     }}
                   >
-                    <h2>{option.option}</h2>
-                    <h3>{option.details}</h3>
+                    <h2 className={styles.optionText}>{option.option}</h2>
+                    <h3 className={styles.optionDetails}>{option.details}</h3>
                   </div>
                 );
               })}
               <button
+                className={styles.skipButton}
                 onClick={() => {
                   jumpToCategory(`c${categoryIndex + 1}`);
                 }}
