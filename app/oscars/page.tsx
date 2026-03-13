@@ -1,11 +1,16 @@
 "use client"
 
 const oscarsData = require('../../oscars.json')
+import { useState } from "react";
 import { Category, Option, UserPrediction } from "@/types";
 import styles from './page.module.css'
+import classNames from "classnames/bind";
 import { shareTextToWhatsApp } from "share-text-to-whatsapp";
 
+const cx = classNames.bind(styles)
+
 export default function Home() {
+  const [optionState, setOptionState] = useState(false)
   let userPredicitons: UserPrediction[] = []
   
   oscarsData.categories.forEach((category: Category) => {
@@ -14,6 +19,9 @@ export default function Home() {
       prediction: ''
     })
   });
+  const updateOptionState = (categoryIndex: number, optionIndex: number) => {
+    setOptionState(true)
+  }
 
   const addPrediction = (categoryName: string, prediction: string) => {
     let predicitonIndex = userPredicitons
@@ -64,13 +72,19 @@ export default function Home() {
             {category.options.map((option: Option, optionIndex: number) => {
               let optionKey = `${category.name}-${option.option}-${optionIndex}`
               let optionId = `${categoryIndex}-${optionIndex}`
+
+              let optionClassName = cx({
+                option: true,
+                selected: optionState
+              })
               return (
                 <div
                   id={optionId}
                   key={optionKey}
-                  className={styles.option}
+                  className={optionClassName}
                   onClick={() => {
                     addPrediction(category.name, option.option)
+                    updateOptionState(categoryIndex, optionIndex)
                     jumpToCategory(`c${categoryIndex + 1}`)
                   }}
                 >
