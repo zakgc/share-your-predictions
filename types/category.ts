@@ -1,6 +1,6 @@
-import { type Option } from './option'
+import { type Option } from './option';
 
 export type Category = {
-    name: string
-    options: Option[]
-}
+    name: string;
+    options: Option[];
+};

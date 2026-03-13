@@ -1,4 +1,4 @@
 export type UserPrediction = {
-    category: string
-    prediction: string
-}
+    category: string;
+    prediction: string;
+};

@@ -1,3 +1,3 @@
-export * from './category'
-export * from './option'
-export * from './userPrediction'
+export * from './category';
+export * from './option';
+export * from './userPrediction';
