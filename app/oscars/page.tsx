@@ -3,7 +3,6 @@
 const oscarsData = require('../../oscars.json');
 import { useState } from 'react';
 import { Category, Option, UserPrediction } from '@/src/types';
-import { shareTextToWhatsApp } from 'share-text-to-whatsapp';
 import styles from './page.module.css';
 import classNames from 'classnames/bind';
 
@@ -79,7 +78,8 @@ export default function Home() {
   const sharePredicitions = () => {
     let text = formatPredicitions();
 
-    shareTextToWhatsApp(text);
+    const msg = encodeURIComponent(text);
+    window.open(`https://wa.me/?text=${msg}`, "_blank");
   };
 
   const jumpToCategory = (id: string) => {
