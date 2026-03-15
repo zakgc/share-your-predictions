@@ -3,9 +3,9 @@
 const oscarsData = require('../../oscars.json');
 import { useState } from 'react';
 import { Category, Option, UserPrediction } from '@/types';
+import { shareTextToWhatsApp } from 'share-text-to-whatsapp';
 import styles from './page.module.css';
 import classNames from 'classnames/bind';
-import { shareTextToWhatsApp } from 'share-text-to-whatsapp';
 
 const cx = classNames.bind(styles);
 
@@ -65,10 +65,10 @@ export default function Home() {
       return prediction.prediction !== '';
     });
 
-    let formattedPredicitions = 'Oscars 2026 Predictions';
+    let formattedPredicitions = '*Oscars 2026 Predictions*';
 
     filteredUserPredictions.forEach((prediction) => {
-      let predictionText = `\n*${prediction.category}*\n${prediction.prediction}`;
+      let predictionText = `\n${prediction.category}\n - ${prediction.prediction}`;
 
       formattedPredicitions += predictionText;
     });
