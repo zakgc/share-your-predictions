@@ -2,7 +2,7 @@
 
 const oscarsData = require('../../oscars.json');
 import { useState } from 'react';
-import { Category, Option, UserPrediction } from '@/types';
+import { Category, Option, UserPrediction } from '@/src/types';
 import { shareTextToWhatsApp } from 'share-text-to-whatsapp';
 import styles from './page.module.css';
 import classNames from 'classnames/bind';
