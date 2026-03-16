@@ -1,0 +1,20 @@
+.optionBlock {
+    display: inline-block;
+}
+
+.optionButton {
+    cursor: pointer;
+    text-align: center;
+    background-color: rgb(6, 58, 58);
+    border-radius: 25px;
+    padding: 8px;
+    margin: 8px;
+}
+
+.isPredicted {
+    background-color: rgb(15, 18, 190);
+}
+
+.isVoted {
+    background-color: rgb(9, 206, 25);
+}
