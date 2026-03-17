@@ -1,0 +1,7 @@
+.categoryBlock {
+    text-align: center;
+    padding: 8px;
+    margin: 8px;
+    background-color: rgb(24, 24, 24);
+    border-radius: 25px;
+}
